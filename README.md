@@ -1,0 +1,1 @@
+# ccm_geekshub_val-consola1-22.01.23
