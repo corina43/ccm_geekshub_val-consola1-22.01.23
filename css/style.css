@@ -135,6 +135,17 @@ body {
     left: 297px;
 }
 
+.led_on::before {
+    content:"";
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background:tomato;
+    box-shadow: 0px 0px 20px 2px rgb(252, 139, 120);
+    position: absolute;
+    top: 250px;
+    left: 297px;
+}
 
 
 .led::after {
@@ -147,7 +158,15 @@ body {
     left: 272px;
 }
 
-
+.led_on::after {
+    content: "POWER";
+    color: grey;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 270px;
+    left: 272px;
+}
 
 /* Aqui termina el contenido de la pantalla y comienza el Medio de la consola */
 
